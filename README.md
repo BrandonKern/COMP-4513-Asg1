@@ -11,7 +11,11 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/constructors</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/constructors/mclaren</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers</li>
+  
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/hamilton</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/Hamilton</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/connolly</li>
+  
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/search/ha</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/race/1106</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/races/10</li>
