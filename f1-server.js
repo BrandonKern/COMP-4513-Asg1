@@ -45,8 +45,8 @@ app.get('/api/circuits/season/:year', async (req, res) => {
         .select(`
         *, races!inner()
         `)
-        .eq('races.year', req.params.year);
-        // .order('races."round"', { ascending: true }); order is broken
+        .eq('races.year', req.params.year)
+        .order('round', {referencedTable: 'races', ascending: true });
     if (error) {
         res.json({"message": "error when fetching data"}); 
         return
@@ -114,17 +114,19 @@ app.get('/api/drivers/search/:substring', async (req, res) => {
 });
 
 // struggling with this one
-// app.get('/api/drivers/race/:raceId', async (req, res) => {
-//     const {data, error} = await supabase
-//         .from('drivers')
-//         .select()
-//         .eq('driverRef',req.params.ref);
-//     if (error) {
-//         res.json({"message": "error when fetching data"}); 
-//         return
-//     }
-//     res.send(data);
-// });
+app.get('/api/drivers/race/:raceId', async (req, res) => {
+    const {data, error} = await supabase
+        .from('drivers')
+        .select(`
+        * , results!inner()
+        `)
+        .eq('results.raceId',req.params.raceId);
+    if (error) {
+        res.json({"message": "error when fetching data"}); 
+        return
+    }
+    res.send(data);
+});
 
 
 app.get('/api/races/:raceId', async (req, res) => {
@@ -232,7 +234,7 @@ app.get('/api/results/driver/:ref', async (req, res) => {
 });
 
 
-app.get('/api/results/drivers/:ref/season/:start/:end', async (req, res) => {
+app.get('/api/results/driver/:ref/season/:start/:end', async (req, res) => {
     const {data, error} = await supabase
         .from('results')
         .select(`*, drivers!inner(), races!inner()`)
@@ -267,7 +269,7 @@ app.get('/api/qualifying/:raceId', async (req, res) => {
 });
 
 
-app.get('/api/standing/drivers/:raceId', async (req, res) => {
+app.get('/api/standings/:raceId/drivers', async (req, res) => {
     const {data, error} = await supabase
         .from('driver_standing')
         .select(`
@@ -285,7 +287,7 @@ app.get('/api/standing/drivers/:raceId', async (req, res) => {
     res.send(data);
 });
 
-app.get('/api/standings/constructors/:raceId', async (req, res) => {
+app.get('/api/standings/:raceId/constructors', async (req, res) => {
     const {data, error} = await supabase
         .from('constructor_standing')
         .select(`
