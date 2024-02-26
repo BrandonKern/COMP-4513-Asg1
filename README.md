@@ -21,7 +21,7 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/races/circuits/monza/season/2015/2020</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/results/1106</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen</li>
-  <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen/seaons/2022/2022</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen/season/2022/2022</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/qualifying/1106</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/standings/2/drivers</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/standings/4/constructors</li>
