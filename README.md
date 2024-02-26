@@ -12,4 +12,17 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/constructors/mclaren</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/hamilton</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/search/ha</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/race/1106</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/races/10</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/races/season/2020</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/races/season/2022/4</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/races/circuits/monza</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/races/circuits/monza/2015/2020</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/results/1106</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/sainz/seaons/2022/2022</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/qualifying/1106</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/standings/2/drivers</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/standings/4/constructors</li>
 </ul>
