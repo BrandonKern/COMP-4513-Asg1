@@ -42,6 +42,7 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/results/1106</li>
   
   <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/connolly</li>
   
   <li>https://kaput-pastoral-ixora.glitch.me/api/results/driver/max_verstappen/season/2022/2022</li>
   
