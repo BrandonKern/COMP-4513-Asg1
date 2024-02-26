@@ -12,7 +12,7 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/constructors/mclaren</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/hamilton</li>
-  <li>https://kaput-pastoral-ixora.glitch.me/api/search/ha</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/search/ha</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/drivers/race/1106</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/races/10</li>
   <li>https://kaput-pastoral-ixora.glitch.me/api/races/season/2020</li>
