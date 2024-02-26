@@ -10,6 +10,7 @@ Testing links:
   <li>https://kaput-pastoral-ixora.glitch.me/api/circuits</li>
   
   <li>https://kaput-pastoral-ixora.glitch.me/api/circuits/monaco</li>
+  <li>https://kaput-pastoral-ixora.glitch.me/api/circuits/calgary</li>
   
   <li>https://kaput-pastoral-ixora.glitch.me/api/circuits/season/2020</li>
   
