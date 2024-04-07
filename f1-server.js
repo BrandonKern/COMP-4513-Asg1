@@ -224,7 +224,7 @@ app.get('/api/results/:raceId', async (req, res) => {
 app.get('/api/results/driver/:ref', async (req, res) => {
     const {data, error} = await supabase
         .from('results')
-        .select(`*, drivers!inner()`)
+        .select(`*, races(year), drivers!inner()`)
         .eq('drivers.driverRef', req.params.ref);
     if (error) {
         res.json({"message": "error when fetching data"}); 
@@ -237,7 +237,7 @@ app.get('/api/results/driver/:ref', async (req, res) => {
 app.get('/api/results/driver/:ref/season/:start/:end', async (req, res) => {
     const {data, error} = await supabase
         .from('results')
-        .select(`*, drivers!inner(), races!inner()`)
+        .select(`*, drivers!inner(), races!inner(year)`)
         .eq('drivers.driverRef', req.params.ref)
         .gte('races.year', req.params.start)
         .lte('races.year', req.params.end);
